@@ -1,2 +1,4 @@
 # LTG_F411_WATCH
-自主绘制PCB和自主编写图形界面的可编程手表
+自主绘制原理图和PCB，主控是STM32F411CEU6，LCD显示屏为1.3寸-SPI接口-ST7789V-240*240
+
+界面开发基于LittleVGL GUI
