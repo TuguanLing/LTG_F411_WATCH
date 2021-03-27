@@ -16,8 +16,8 @@
         <TargetCommonOption>
           <Device>STM32F411CEUx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F4xx_DFP.2.7.0</PackID>
-          <PackURL>http://www.keil.com/pack</PackURL>
+          <PackID>Keil.STM32F4xx_DFP.2.14.0</PackID>
+          <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x00020000) IROM(0x08000000,0x00080000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -1108,24 +1108,24 @@
               <FilePath>..\GUI_APP\lv_img_test.c</FilePath>
             </File>
             <File>
+              <FileName>img_2233.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\IMG\img_2233.c</FilePath>
+            </File>
+            <File>
               <FileName>true_color.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\GUI_APP\true_color.c</FilePath>
+              <FilePath>..\GUI_APP\IMG\true_color.c</FilePath>
             </File>
             <File>
               <FileName>true_color_chroma_keyed.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\GUI_APP\true_color_chroma_keyed.c</FilePath>
+              <FilePath>..\GUI_APP\IMG\true_color_chroma_keyed.c</FilePath>
             </File>
             <File>
               <FileName>true_color_with_alpha.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\GUI_APP\true_color_with_alpha.c</FilePath>
-            </File>
-            <File>
-              <FileName>img_2233.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\GUI_APP\img_2233.c</FilePath>
+              <FilePath>..\GUI_APP\IMG\true_color_with_alpha.c</FilePath>
             </File>
           </Files>
         </Group>
